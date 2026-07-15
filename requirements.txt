@@ -1,0 +1,29 @@
+# MovieAgentOS — dipendenze Python
+# Installa tutto con: pip install -r requirements.txt
+
+#frontend
+streamlit>=1.42.0
+streamlit[auth]
+
+#autenticazione google
+authlib
+httpx
+
+#agno e open ai
+agno
+openai
+
+# LLM
+google-genai
+
+#API e HTTP usato da streamlit
+requests
+
+#database
+sqlalchemy
+
+#validazione dati
+pydantic
+
+#memoria vettoriale RAG
+chromadb
